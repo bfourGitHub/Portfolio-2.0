@@ -26,10 +26,11 @@ nav a {
 }
 
 .hero {
-    background-image: url(./assets/friendship-2366955_1920.jpg);
+    background-image: url("./assets/friendship-2366955_1920.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
+    height: 800px;
 }
 
 .jumbotron {
@@ -57,4 +58,22 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.card {
+    border: thin;
+    border-radius: 1.5rem;
+    background: #95b1fd3b;
+    margin: 5px;
+    background-image: linear-gradient(cadetblue, white);
+}
+
+.card-link {
+    color: cadetblue;   
+    font-size: 1.75rem;
+    justify-content: right;
+}
+
+.card-img-top {
+    border-radius: 0.5rem;
 }
