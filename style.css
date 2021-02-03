@@ -69,3 +69,6 @@ nav a {
     border-radius: 0.5rem;
 }
 
+.img-fluid {
+    justify-content: center;
+}
